@@ -87,9 +87,9 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+CV generated with R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available [on github.com/ED-collab/datadrivencv]({{{source_location}}}).
+Source code available [on github.com/ED-collab/datadrivencv]({{{source_location}}}).
 
 Last updated on `r Sys.Date()`.
 
@@ -118,15 +118,15 @@ CV %<>% print_section('education')
 Additional courses and certificates {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('courses')
+```
+
 ::: aside
 ```{r}
 CV %<>% print_text_block('courses_aside')
 ```
 :::
-
-```{r}
-CV %<>% print_section('courses')
-```
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
