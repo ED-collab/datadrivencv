@@ -145,7 +145,7 @@ CV %<>% print_section('work_experience')
 <br>
 <br>
 
-Selected Publications {data-icon=book}
+Selected Publications (see more on my [Google Scholar](https://scholar.google.com/citations?user=Kj5h8UcAAAAJ&hl=en) profile) {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
