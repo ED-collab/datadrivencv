@@ -115,7 +115,18 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Additional courses and certificates {data-icon=suitcase}
+--------------------------------------------------------------------------------
 
+::: aside
+```{r}
+CV %<>% print_text_block('courses_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('courses')
+```
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
@@ -129,20 +140,12 @@ CV %<>% print_text_block('work_experience_aside')
 CV %<>% print_section('work_experience')
 ```
 
-
-Courses and diplomas {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('courses')
-```
-
 <!-- These breaks just force a new page so section doesnt get cut off -->
 <br>
 <br>
 <br>
 
-Selected Publications, Posters, and Products {data-icon=book}
+Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -155,6 +158,18 @@ CV %<>% print_text_block('academic_articles_aside')
 CV %<>% print_section('academic_articles')
 ```
 
+Media {data-icon=video}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('media_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('media')
+```
 
 
 ```{r}
