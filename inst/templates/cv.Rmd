@@ -130,7 +130,7 @@ CV %<>% print_section('work_experience')
 ```
 
 
-Courses {data-icon=suitcase}
+Courses and diplomas {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -142,7 +142,7 @@ CV %<>% print_section('courses')
 <br>
 <br>
 
-Selected Publications, Posters, and Talks {data-icon=book}
+Selected Publications, Posters, and Products {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
