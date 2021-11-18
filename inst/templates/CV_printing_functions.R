@@ -104,8 +104,8 @@ create_CV_object <-  function(data_location,
 # Remove links from a text block and add to internal list
 sanitize_links <- function(cv, text){
   if(cv$pdf_mode){
-    link_titles <- stringr::str_extract_all(text, '(?<=\\[).+?(?=\\])')[[1]]
-    link_destinations <- stringr::str_extract_all(text, '(?<=\\().+?(?=\\))')[[1]]
+    link_titles <- stringr::str_extract_all(text, '(?<=\\[).+?(?=\\]\\()')[[1]]
+    link_destinations <- stringr::str_extract_all(text, '(?<=\\]\\().+?(?=\\))')[[1]]
 
     n_links <- length(cv$links)
     n_new_links <- length(link_titles)
@@ -123,7 +123,8 @@ sanitize_links <- function(cv, text){
       # Replace the link destination and remove square brackets for title
       text <- text %>%
         stringr::str_replace_all(stringr::fixed(link_superscript_mappings)) %>%
-        stringr::str_replace_all('\\[(.+?)\\]', "\\1")
+        stringr::str_replace_all('\\[(.+?)\\](?=<sup>)', "\\1")
+
     }
   }
 
