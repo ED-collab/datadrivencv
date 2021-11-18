@@ -113,10 +113,6 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-<br>
-<br>
-<br>
-
 Additional Courses and Certificates {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
@@ -135,11 +131,6 @@ CV %<>% print_text_block('work_experience_aside')
 ```{r}
 CV %<>% print_section('work_experience')
 ```
-
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
 
 Selected Publications (see more on my [Google Scholar Profile](https://scholar.google.com/citations?user=Kj5h8UcAAAAJ&hl=en)) {data-icon=book}
 --------------------------------------------------------------------------------
