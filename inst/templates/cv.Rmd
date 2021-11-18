@@ -87,7 +87,7 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-CV generated with R package [**pagedown**](https://github.com/rstudio/pagedown). 
+This CV was generated automatically with R package [**pagedown**](https://github.com/rstudio/pagedown) & customized script. 
 
 Source code available [on github.com/ED-collab/datadrivencv]({{{source_location}}}).
 
