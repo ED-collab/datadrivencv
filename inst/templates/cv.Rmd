@@ -117,20 +117,14 @@ CV %<>% print_section('education')
 <br>
 <br>
 
-Additional courses and certificates {data-icon=suitcase}
+Additional Courses and Certificates {data-icon=suitcase}
 --------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('courses_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('courses')
 ```
 
-Research Experience {data-icon=laptop}
+Research & Work Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r}
@@ -147,7 +141,7 @@ CV %<>% print_section('work_experience')
 <br>
 <br>
 
-Selected Publications (see more on my [Google Scholar](https://scholar.google.com/citations?user=Kj5h8UcAAAAJ&hl=en) profile) {data-icon=book}
+Selected Publications (see more on my [Google Scholar Profile](https://scholar.google.com/citations?user=Kj5h8UcAAAAJ&hl=en)) {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
